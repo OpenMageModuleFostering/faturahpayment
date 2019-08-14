@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+    <name>faturahpayment</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension will help you to add faturah payment method on payment page.</summary>
+    <description>This extension will help you to add faturah payment method on payment page.&#xD;
+Features&#xD;
+No core file changed.&#xD;
+A small useful extension for payment.&#xD;
+Works on Magento 1.6 and above.&#xD;
+Supported Features.&#xD;
+     Admin -&gt; go to System  -&gt; Configuration  -&gt; Sales -&gt; Payment Method -&gt; faturah payment method.&#xD;
+     Now you can enable/disable this extension from admin.&#xD;
+     Faturah Payment method is displayed automatically at the time of checkout on payment page.&#xD;
+</description>
+    <notes>This extension will help you to add faturah payment method on payment page.</notes>
+    <authors><author><name>BluethinkIT</name><user>Bluethink</user><email>pramodgupta.bt@gmail.com</email></author></authors>
+    <date>2014-09-05</date>
+    <time>19:44:21</time>
+    <contents><target name="magecommunity"><dir name="BT"><dir name="Faturahpayment"><dir name="Block"><dir name="Standard"><file name="Redirect.php" hash="1fbdf74e85c028114ee40e649d523b6b"/></dir></dir><dir name="Helper"><file name="Data.php" hash="e67c479267d2bc436a8acbdf92eeed14"/></dir><dir name="Model"><file name="Standard.php" hash="917c221b632315b660b56f7693637398"/></dir><dir name="controllers"><file name="IndexController.php" hash="9391e1d3073c9e76e0487d05e62b337c"/></dir><dir name="etc"><file name="config.xml" hash="23f10c9f0e3b3ee5b7b7b7c0cdc35017"/><file name="system.xml" hash="01be4d19a858321014e682d3174a88c5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="BT_Faturahpayment.xml" hash="1ec5765386d6761e20015f3d48f8768b"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="faturahpayment.xml" hash="87d833c9aec02dd6986f674879aa1da5"/></dir></dir></dir></dir></target><target name="magelocal"><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="faturahpayment"><file name="error.phtml" hash=""/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
