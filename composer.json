@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/faturahpayment",
+    "name": "openmage-module-fostering\/faturahpayment",
     "type": "magento-module",
-    "license": "Open-Software-License",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension will help you to add faturah payment method on payment page.",
     "authors": [
